@@ -1,0 +1,9 @@
+<template name="profileForm">
+    <div class="container">
+        {{> flashMessages}}
+        <div class="col-md-6 col-md-offset-3">
+            {{> quickForm buttonContent=buttonContent collection='Profiles'
+                doc=doc id=id omitFields=omitFields type=type }}
+        </div>
+    </div>
+</template>
