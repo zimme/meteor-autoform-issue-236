@@ -2,6 +2,7 @@ meteor-autoform-issue-236
 =========================
 
 mrt install/update
+
 meteor
 
 <url>/new
